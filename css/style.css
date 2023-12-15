@@ -33,7 +33,6 @@ button:hover {
 
 .degrade {
 	background-image: linear-gradient(45deg, #bb90e4, #1b0035);
-	/* Degrade roxo */
 	height: 92vh;
 	color: white;
 	text-align: center;

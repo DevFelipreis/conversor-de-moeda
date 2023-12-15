@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Conversor de Moedas - Prof. Anthony Freitas</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+	<div class="degrade">
+		<div class="outer-container">
+			<div class="social-icons">
+				<a href="https://www.linkedin.com/in/devlfreis/" target="_blank"><i class="fab fa-linkedin"></i></a>
+				<a href="https://devfelipreis.github.io/projeto-integrador/" target="_blank"><i
+						class="fas fa-globe"></i></a>
+				<a href="https://github.com/DevFelipreis" target="_blank"><i class="fab fa-github"></i></a>
+				<a href="https://www.instagram.com/lfreis_oficial/?next=%2F" target="_blank"><i
+						class="fab fa-instagram"></i></a>
+				<a href="mailto:lfreis.contato@gmail.com?subject=Fale%20Conosco"><i class="far fa-envelope"></i></a>
+				<a href="https://wa.me/5521998691739" target="_blank" class="whatsapp-link">
+					<i class="fab fa-whatsapp"></i>
+				</a>
+			</div>
+		</div>
+		<div class="conversorMoedas">
+			<h2 align="center">Conversor de Moedas com API pública "ExchanGerate"</h2>
+
+			<label for="valor">Digite o valor em reais:</label>
+			<input type="number" id="valor" placeholder="Digite o valor em reais">
+
+			<label for="moeda">Escolha a moeda:</label>
+			<select id="moeda">
+				<option value="USD">Dólar (USD)</option>
+				<option value="EUR">Euro (EUR)</option>
+				<option value="GBP">Libra Esterlina (GBP)</option>
+				<option value="JPY">Iene (JPY)</option>
+				<option value="ARS">Peso Argentino (ARS)</option>
+			</select>
+			<br>
+			<button id="convertButton">Converter</button>
+			<div class="result-container">
+				<div id="result"></div>
+			</div>
+		</div>
+		<div class="result-container">
+			<div id="result"></div>
+		</div>
+
+
+	</div>
+	<script src="./js/script.js"></script>
+	<footer>
+		Desenvolvido por <a href="#" target="_blank">Luiz Felipe Reis</a> sob orientação do prof. <a
+			href="https://sammyfreitas.github.io/portfolioSite/" target="_blank">Anthony Freitas</a>.
+		<br>
+		Durante o <a
+			href="https://www.firjansenai.com.br/cursorio/portal/detalhe-do-curso/cursos_02/programador-front-end/48897/disponivel"
+			target="_blank">Curso de Programador Front-End</a> do <a href="https://www.firjansenai.com.br/"
+			target="_blank">SENAI Maracanã</a>.
+	</footer>
+</body>
+
+</html>

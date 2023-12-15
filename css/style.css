@@ -1,0 +1,105 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+
+h2 {
+	color: #cba1f3;
+
+}
+
+label {
+	display: block;
+	margin-top: 10px;
+}
+
+input,
+select,
+button {
+	width: 150px;
+	height: 30px;
+	font-size: 15px;
+	background-color: #333;
+	border: none;
+	color: white;
+	margin: 3px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+button:hover {
+	background-color: #555;
+}
+
+.degrade {
+	background-image: linear-gradient(45deg, #bb90e4, #1b0035);
+	/* Degrade roxo */
+	height: 92vh;
+	color: white;
+	text-align: center;
+}
+
+.container {
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.outer-container {
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	background: #333;
+	padding: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.conversorMoedas {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.8);
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 15px;
+	padding: 15px;
+	box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.result-container {
+	margin-top: 10px;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+	background: #333;
+	color: #ffffff;
+	padding: 10px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+a:visited {
+	color: darkgrey;
+}
+
+.social-icons {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10px;
+}
+
+.social-icons a {
+	color: white;
+	font-size: 20px;
+	margin: 0 10px;
+}
+
+.social-icons a:hover {
+	color: #00ff00;
+}
